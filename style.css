@@ -22,6 +22,7 @@ html {
 }
 .logo{
 	margin-top: 1rem;
+	width: 2rem;
 }
 .content{
 	width: 970px;
@@ -67,7 +68,7 @@ html {
     height: 70rem;
     overflow: auto;
 }
-.buttons{
+.learn-more{
 	text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -79,13 +80,13 @@ html {
     color: #fff;
     font-size: 2rem;
 }
-.buttons:hover{
+.learn-more:hover{
 	background-color: #E82B0A;
 	cursor:pointer;
 }
 .cases h2{
 	font-weight: 300;
-	font-size: 2.75rem;
+	font-size: 3.75rem;
 	text-align: center;
 	padding-top: 4rem;
 }
@@ -105,7 +106,14 @@ html {
 	width: 100%;
 	text-align: center;
 	overflow: auto;
+	padding-bottom: 2rem;
+	
 
+}
+.social h4{
+	font-size: 2rem;
+	font-weight: 300;
+	
 }
 .icons li{
 	border-radius: 3.25rem;
@@ -114,26 +122,37 @@ html {
     display: inline-block;
     margin: 3.25rem 5px;
     border: 1px solid #eaebec;
-    padding: 1.5rem 0;
+    padding: 1rem 1rem;
     text-align: center;
     
 	
 }
 .icons li:hover{
 	cursor: pointer;
+
 }
 .icons{
 	width: 100%;
-	height: 20rem;
+	
 	overflow: auto;
 }
 .fa-twitter{
 	color: #17A5FF;
+	padding: .5rem .5rem;
 
 }
 .fa-facebook{
-	color: #0008FF
+	color: #0008FF;
+	padding: .5rem .5rem;
+
 }
 .fa-instagram{
 	color: #3C9F97;
+	padding: .5rem .5rem;
+}
+.copyright{
+	
+	padding-bottom: 2rem;
+	color: #838994; 
+	font-size: 1.2rem;
 }
