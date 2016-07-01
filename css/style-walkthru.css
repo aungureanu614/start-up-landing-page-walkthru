@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top-navigation{
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.top-navigation > .content {
+   
+    height: 70px;
+   
+}
+.logo{
+	margin-top: 1rem;
+}
+.content{
+	width: 970px;
+	margin: 0 auto;
+    padding: 0px 15px
+
+}
+.content h1,h3{
+	text-align: center;
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 300;
+	margin-top: 25rem;
+}
+.content h3{
+	font-size: 2rem;
+	margin-top: -1rem;
+}
+.top-navigation .links{
+	float: right;
+}
+.top-navigation .links li{
+	display: inline-block;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover{
+	color: #000;
+	cursor: pointer;
+}
+.introduction{
+	background-image: url('../images/first-background copy.jpg');
+	background-size: cover;
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 70rem;
+    overflow: auto;
+}
+.buttons{
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 15rem;
+    display: block;
+    margin: 0 auto;
+    background-color: #F15A29;
+    color: #fff;
+    font-size: 2rem;
+}
+.buttons:hover{
+	background-color: #E82B0A;
+	cursor:pointer;
+}
+.cases h2{
+	font-weight: 300;
+	font-size: 2.75rem;
+	text-align: center;
+	padding-top: 4rem;
+}
+.cases .devices img{
+    width: 33.3333333%;
+    float: left;
+    height: 12rem;
+  }
+.cases .caption{
+	width: 33.3333333%;
+    float: left;
+    height: 12rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.social{
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+
+}
+.icons li{
+	border-radius: 3.25rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: inline-block;
+    margin: 3.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 1.5rem 0;
+    text-align: center;
+    
+	
+}
+.icons li:hover{
+	cursor: pointer;
+}
+.icons{
+	width: 100%;
+	height: 20rem;
+	overflow: auto;
+}
+.fa-twitter{
+	color: #17A5FF;
+
+}
+.fa-facebook{
+	color: #0008FF
+}
+.fa-instagram{
+	color: #3C9F97;
+}
